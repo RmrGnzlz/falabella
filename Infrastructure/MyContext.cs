@@ -11,7 +11,7 @@ namespace Infrastructure
         }
 
         #region DbSets
-        public DbSet<User> Users { get; set; }
+        public DbSet<Employee> Users { get; set; }
         #endregion
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
